@@ -33,6 +33,12 @@ Output:
 gitlab-runner ubuntu
 ```
 
+To grant sudo permission to gitlab-runner user, ope the visudo file
+```
+sudo visudo
+```
+
+Add the gitlab-runner user in sudoers group and set NOPASSWD as shown below
 ```
 gitlab-runner ALL=(ALL:ALL) ALL
 ```
