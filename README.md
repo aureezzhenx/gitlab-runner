@@ -28,6 +28,7 @@ gitlab-runner ALL=(ALL) NOPASSWD: ALL
 ```
 
 Output:
+```
 # Host alias specification
 
 # User alias specification
