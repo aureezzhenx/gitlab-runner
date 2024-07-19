@@ -23,6 +23,31 @@ Add the gitlab-runner user in sudoers group and set NOPASSWD as shown below
 ```
 gitlab-runner ALL=(ALL:ALL) ALL
 ```
+```
+gitlab-runner ALL=(ALL) NOPASSWD: ALL 
+```
 
+Output:
+# Host alias specification
+
+# User alias specification
+
+# Cmnd alias specification
+
+# User privilege specification
+root    ALL=(ALL:ALL) ALL
+gitlab-runner ALL=(ALL:ALL) ALL
+
+# Members of the admin group may gain root privileges
+%admin ALL=(ALL) ALL
+
+# Allow members of group sudo to execute any command
+%sudo   ALL=(ALL:ALL) ALL
+
+# See sudoers(5) for more information on "#include" directives:
+
+#includedir /etc/sudoers.d
+gitlab-runner ALL=(ALL) NOPASSWD: ALL
+```
 
 
