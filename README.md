@@ -1,10 +1,10 @@
-Step #1: Add the Official GitLab Repository
+# Step #1: Add the Official GitLab Repository
 
 ```
 curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh" | sudo bash
 ```
 
-Step #2: Install GitLab Runner on Ubuntu
+# Step #2: Install GitLab Runner on Ubuntu
 
 ```
 sudo apt-get install gitlab-runner
@@ -18,7 +18,7 @@ sudo gitlab-runner stop
 sudo gitlab-runner restart
 ```
 
-Add the gitlab-runner user in sudoers group and set NOPASSWD as shown below
+# Step #3: Grant sudo Permission to GitLab Runner User
 
 ```
 gitlab-runner ALL=(ALL:ALL) ALL
