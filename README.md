@@ -19,6 +19,19 @@ sudo gitlab-runner restart
 ```
 
 # Step #3: Grant sudo Permission to GitLab Runner User
+After install GitLab Runner you will see gitlab-runner user in /home directory
+
+```
+cd /home
+```
+```
+ls
+```
+
+Output:
+```
+gitlab-runner ubuntu
+```
 
 ```
 gitlab-runner ALL=(ALL:ALL) ALL
