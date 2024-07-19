@@ -72,4 +72,6 @@ gitlab-runner ALL=(ALL:ALL) ALL
 gitlab-runner ALL=(ALL) NOPASSWD: ALL
 ```
 
-
+# Step #4: Register GitLab Runner to GitLab on Ubuntu
+1. First login to GitLab Server with Username and Password.
+![image](https://github.com/user-attachments/assets/b2058d86-4a92-497c-8f80-5c79b4264d8c)
