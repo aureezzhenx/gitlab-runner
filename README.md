@@ -1,11 +1,11 @@
 # Step #1: Add the Official GitLab Repository
-
+First add the official GitLab Repository using below command
 ```
 curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh" | sudo bash
 ```
 
 # Step #2: Install GitLab Runner on Ubuntu
-
+Run below command to install latest GitLab Runner on Ubuntu 20.04 LTS
 ```
 sudo apt-get install gitlab-runner
 ```
